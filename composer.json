@@ -1,0 +1,29 @@
+{
+  "name": "ddup/upload",
+  "description": "上传",
+  "type": "library",
+  "keywords": [
+    "ddup",
+    "upload"
+  ],
+  "require": {
+    "ddup/part": "^1.3",
+    "ddup/logger": "^1.0",
+    "qiniu/php-sdk": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ddup\\Upload\\": "src",
+      "Ddup\\Upload\\Test\\": "test"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "authors": [
+    {
+      "name": "xingbo.li",
+      "email": "1711293058@qq.com"
+    }
+  ]
+}
